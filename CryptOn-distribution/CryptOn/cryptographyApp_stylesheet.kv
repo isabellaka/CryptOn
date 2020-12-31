@@ -1,0 +1,105 @@
+<MyToggleButton@ToggleButton>:
+
+    background_normal: ""
+    background_color: 0, 0.4, 0.5, 1
+    font_name: "MPLUSRounded1c-Bold.ttf"
+    text_size: self.size
+    font_size: "18sp"
+    halign: "center"
+    valign: "center"
+
+    group: "panel"
+    
+<Startpage>:
+    screen: "startpage"
+    auswahl_gridlayout: auswahl_gridlayout
+    uebersicht_tbutton: uebersicht_tbutton
+    verschluesseln_tbutton: verschluesseln_tbutton
+    entschluesseln_tbutton: entschluesseln_tbutton
+    projekt_tbutton: projekt_tbutton
+    hilfe_tbuttton: hilfe_tbutton
+    dropdown2: dropdown2
+    dropdown2_1: dropdown2_1
+    dropdown2_2: dropdown2_2
+    dropdown2_3: dropdown2_3
+
+
+    size_hint_x: 1
+    size_hint_y: 1
+    pos: 0, 0
+    canvas.before:
+        Color:
+            rgba: 0.6, 0.6, 0.6, 1
+        Rectangle:
+            size: self.size
+            pos: self.pos
+
+    GridLayout:
+        id: auswahl_gridlayout
+        cols: 5
+        rows: 1
+        size_hint: 1, 0.1
+        pos_hint: {"top":1, "right":1}
+        spacing: 2
+
+
+        MyToggleButton:
+            id: uebersicht_tbutton
+            text: "Übersicht"
+            state: "down"
+
+
+        MyToggleButton:
+            id: verschluesseln_tbutton
+            text: "Verschlüsseln"
+            state: "normal"
+
+
+
+        MyToggleButton:
+            id: entschluesseln_tbutton
+            text: "Entschlüsseln"
+
+            state: "normal"
+
+        MyToggleButton:
+            id: projekt_tbutton
+            text: "Über das Projekt"
+
+            state: "normal"
+
+
+        MyToggleButton:
+            id: hilfe_tbutton
+            text: "Hilfe"
+
+            state: "normal"
+
+    DropDown:
+        id: dropdown2
+
+
+        size_hint_x: 0.2
+        pos_hint: {"top":0.9, "right":0.4}
+
+        Button:
+            id: dropdown2_1
+            text: "Neuer Text"
+            size_hint_y: None
+            height: 44
+
+        Button:
+            id: dropdown2_2
+            text: "Drag and Drop"
+            size_hint_y: None
+            height: 44
+
+        Button:
+            id: dropdown2_3
+            text: "Neuer Text2"
+            size_hint_y: None
+            height: 44
+
+
+
+

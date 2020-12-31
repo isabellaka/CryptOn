@@ -1,0 +1,7 @@
+Navigieren Sie mit Hilfe der blauen Leiste am oberen Rand des Bildschirms zwischen den einzelnen Programmmenüs. Unter den Menüs "Verschlüsseln" und "Entschlüsseln" müssen Sie von 2 weiteren Untermenüs auswählen, die Ihnen dann angezeigt werden. Die verschlüsselten Dateien werden immer im Ordner "Verschlüsselte Dateien" gespeichert.
+
+Denken Sie daran, dass Sie Passwörter bestätigen und alle Anweisungen des Programms befolgen, damit eine einwandfreie Benutzung stattfinden kann!
+
+Sichern Sie Ihre verschlüsselten Dateien (z.B. auf einem USB-Stick)! Sollte jemand Ihre Dateien manipulieren, können Sie dennoch auf das Original zurückgreifen.
+
+Bei weiteren Fragen oder Problemen zu CryptOn besuchen Sie die Github-Seite des Programms und ich werde mich um eine Antwort und Lösung bemühen.

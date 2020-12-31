@@ -1,0 +1,8 @@
+Das Programm CryptOn stellt den praktischen Teil meiner vorwissenschaftlichen Arbeit zum Thema "Moderne Kryptographie" dar. Es ist dazu gedacht, auch als Laie bestimmte Textdateien verschlüsseln und somit vor Angreifern schützen zu können. Außerdem möchte ich mit diesem Projekt aufzeigen, dass Verschlüsselung ein unumgängliches Tool im Alltag ist, um unsere Privatssphäre zu schützen.
+
+Dieses Programm garantiert auf keinen Fall die absolute Sicherheit für Ihre Textdateien.
+
+Dieses Programm wurde in den Programmiersprachen Python und Kivy geschrieben und ist ein Open Source Projekt unter der GNU General Public License v3.0 (GNU GPLv3) veröffentlicht. Zur Verschlüsselung der Textdateien wird der AES-Algorithmus verwendet.
+
+Sie haben einen Bug entdeckt oder Verbesserungsvorschläge für das Programm? - Dann schauen Sie doch auf der Github-Seite dieses Programms vorbei und teilen Sie Ihre Ideen mit mir!
+
