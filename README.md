@@ -1,4 +1,4 @@
-![Image](https://github.com/isabellaka/CryptOn/blob/main/CryptOn-distribution/CryptOn/icon_3.png?raw=true)
+![Image](https://github.com/isabellaka/CryptOn/blob/main/CryptOn-distribution/CryptOn/Logo_original.png?raw=true)
 
 # CryptOn
 CryptOn is a software for encrypting and decrypting your text files. Feel free to download it from Github and report any bugs that you might find as soon as possible.
