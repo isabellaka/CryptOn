@@ -4,6 +4,7 @@
 CryptOn is a software for encrypting and decrypting your text files. Feel free to download it from Github!
 
 language: German
+
 programming languages used: Python and Kivy
 
 # How to download CryptOn
